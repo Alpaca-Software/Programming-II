@@ -13,13 +13,15 @@
 public class Salary {
   
   // Constants.
-  static final int WORKED_DAYS = 30;
   static final float VALUE_DAY = 50_000f;
   
   public static void main(String[] args) {
-    System.out.printf("Días Trabajados: %d\n", WORKED_DAYS);
+    // Inputs.
+    int workedDays = 30;
+
+    System.out.printf("Días Trabajados: %d\n", workedDays);
     System.out.printf("Valor del Día: $%.0f\n", VALUE_DAY);
     
-    System.out.printf("\nSalario a Pagar: $%.0f\n", WORKED_DAYS * VALUE_DAY);
+    System.out.printf("\nSalario a Pagar: $%.0f\n", workedDays * VALUE_DAY);
   }
 }
