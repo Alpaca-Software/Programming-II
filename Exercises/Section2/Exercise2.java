@@ -1,53 +1,46 @@
-package ejercicio2.pkg1;
+// Topic: CONTROL STRUCTURES - Estructuras de Control.
 
-/**
- *
- * 2. Ellos le proporcionan dos valores de un lote para encontrar el área, hay dos tipos de figuras, un rectángulo y un triángulo.	
- */
+// Exercise 2: They provide you with two values 
+//             of a lot to find the area, there 
+//             are two types of figures, a
+//             rectangle and a triangle.	
+//
+//             Ellos le proporcionan dos valores 
+//             de un lote para encontrar el área, 
+//             hay dos tipos de figuras, un 
+//             rectángulo y un triángulo.
 
 import java.util.Scanner;
 
-public class Ejercicio21 {
-
-    /**
-     * @param args the command line arguments
-     */
+public class Figures {
     public static void main(String[] args) {
-       
         Scanner sc = new Scanner(System.in);
         
+        // Rectangle Area.
+        System.out.print("Introduzca las dimensiones del rectángulo (metros):\n");
         
-        System.out.println("Area de un lote");
+        System.out.print("  Largo del rectángulo: ");
+        float rectLength = sc.nextFloat();
         
+        System.out.print("  Ancho del rectángulo: ");
+        float rectWidth = sc.nextFloat();
         
-        System.out.print("Input the base del triangulo ");
-        float baseTriangulo = sc.nextFloat();
+        float areaRect = rectLength*rectWidth;
+        System.out.printf("  Area: %.1f metros.", areaRect);
         
+        // Triangle Area.
+        System.out.print("\n\nIntroduzca las dimensiones del triángulo (metros):\n");
         
-        System.out.print("Input the higth del triangulo ");
-        float alturaTriangulo = sc.nextFloat();
+        System.out.print("  Base del triángulo: ");
+        float triangleBase = sc.nextFloat();
         
-       
+        System.out.print("  Altura del triángulo: ");
+        float triangleHeight = sc.nextFloat();
         
+        float areaTriangle = triangleBase * triangleHeight / 2;
+        System.out.printf("  Area: %.1f metros.", areaTriangle);
 
-        System.out.print("Input the base del rectangulo ");
-        float baseRectangulo = sc.nextFloat();
         
-        System.out.print("Input the altura del rectangulo ");
-        float alturaRectangulo = sc.nextFloat();
-        
-        
-        //calcular area triangulo
-        
-        float areaTriangulo = (alturaTriangulo*baseTriangulo)/2;
-        float areaRectangulo = alturaRectangulo*alturaRectangulo;
-        
-        float areaLote = areaTriangulo+areaRectangulo;
-        
-        System.out.println("areaLote = " + areaLote);
-        
-        
-        
+        System.out.printf("\n\n Area del lote: %.1f m²", areaRect + areaTriangle);
     }
-    
 }
