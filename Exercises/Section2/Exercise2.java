@@ -26,7 +26,7 @@ public class Figures {
         float rectWidth = sc.nextFloat();
         
         float areaRect = rectLength*rectWidth;
-        System.out.printf("  Area: %.1f metros.", areaRect);
+        System.out.printf("  Área: %.1f metros.", areaRect);
         
         // Triangle Area.
         System.out.print("\n\nIntroduzca las dimensiones del triángulo (metros):\n");
@@ -38,9 +38,9 @@ public class Figures {
         float triangleHeight = sc.nextFloat();
         
         float areaTriangle = triangleBase * triangleHeight / 2;
-        System.out.printf("  Area: %.1f metros.", areaTriangle);
+        System.out.printf("  Área: %.1f metros.", areaTriangle);
 
         
-        System.out.printf("\n\n Area del lote: %.1f m²", areaRect + areaTriangle);
+        System.out.printf("\n\n Área del lote: %.1f m²", areaRect + areaTriangle);
     }
 }
