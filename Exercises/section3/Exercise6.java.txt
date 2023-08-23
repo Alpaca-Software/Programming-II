@@ -1,0 +1,31 @@
+package suma;
+
+
+import javax.swing.*;
+public class Suma {
+
+    public static void main(String[] args) {
+   
+        String numberUno,numberDos,numberTres;
+   
+        
+        numberUno = JOptionPane.showInputDialog("input the first number: ");
+        numberDos = JOptionPane.showInputDialog("input the second number: ");
+        numberTres = JOptionPane.showInputDialog("input the three number: ");
+        
+        int numberOne = Integer.parseInt(numberUno);
+        int numberTwo = Integer.parseInt(numberDos);
+        int numberThree = Integer.parseInt(numberTres);
+        
+        int sumaTotal = calcularSuma(numberOne,numberTwo,numberThree);
+    
+        System.out.println("la suma de los numbers ingresados es: "+sumaTotal);
+    }
+    
+    
+    public static int calcularSuma(int numberOne,int numberTwo, int numberThree){
+        return numberOne+numberTwo+numberThree;
+        
+    }
+    
+}
