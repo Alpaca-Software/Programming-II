@@ -1,0 +1,47 @@
+package fundamento;
+
+/**
+ *
+ * 2. Desarrolla una aplicación que calcule el área y el perímetro de un lote
+ * rectangular, recuerda que debes crear métodos que realicen los cálculos
+
+2. Develop an application that calculates the area and perimeter of a rectangular lot, remember that you must create methods that perform the calculations		
+ */
+import java.util.Scanner;
+
+public class areaPerimetroRectangulo {
+
+   
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.print("Ingrese la base del rectangulo: ");
+        float  baseRectangulo = sc.nextFloat();
+        
+        System.out.print("Ingrese la base del rectangulo: ");
+        float  alturaRectangulo = sc.nextFloat();
+        
+
+        float perimetroRectangulo = calcularPerimetro(baseRectangulo,alturaRectangulo);
+        
+        float areaRectangulo = calcularArea(baseRectangulo,alturaRectangulo);
+
+        imprimirAreas(perimetroRectangulo,areaRectangulo);
+    }
+    
+    public static float calcularPerimetro(float baseRectangulo, float alturaRectangulo){
+        float perimetroRectangulo = 2*(alturaRectangulo+baseRectangulo);
+           return perimetroRectangulo;
+    }
+    
+    public static float calcularArea(float baseRectangulo, float alturaRectangulo){
+        float areaRectangulo = alturaRectangulo*baseRectangulo;
+        return areaRectangulo;
+    }
+    
+    
+    public static void imprimirAreas(float perimetroRectangulo, float areaRectangulo){
+        System.out.println("El area del rectangulo es: "+areaRectangulo);
+        System.out.println("El perimetro del rectangulo es: "+perimetroRectangulo);
+    }
+}
