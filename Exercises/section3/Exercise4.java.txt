@@ -1,0 +1,59 @@
+import java.util.Scanner;
+
+/*4. Enseñe al sistema los colores primarios en inglés, guárdelos en una matriz y, 
+a continuación, pida un color y confirme o niegue si forma parte de la colección de colores primarios.
+4. Teach the system primary colors in English, save them to an array, then prompt for a color and confirm 
+or deny if it is part of the primary color collection.		
+
+*/
+public class ColorPrimario {
+
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+        
+        Scanner sc = new Scanner(System.in);
+        
+        int filaColor = 1;
+        int columnaColor = 3;
+        
+        String colores[][] = new String [filaColor][columnaColor];
+        
+        for (int i = 0; i < filaColor; i++) {
+            for (int j = 0; j < columnaColor; j++) {
+                System.out.print("Ingrese el color "+(i+1)+" : ");
+                colores[i][j] = sc.nextLine();
+            }
+        }
+        
+        System.out.println("Ingrese le color a buscar: ");
+        String colorBuscado = sc.nextLine();
+        
+        boolean encontrado = false;
+        
+        encontrado = verificarColorPrimario(colores,colorBuscado);
+        
+        if(encontrado){
+            System.out.println("El color fue encontrado: ");
+        }else{
+            System.out.println("No encontrado!!: ");
+        }
+        
+    }
+    
+    public static boolean verificarColorPrimario(String[][] colores, String colorBuscado){
+        boolean encontrado = false;
+        
+        int filaColor = 1;
+        int columnaColor = 3;
+        
+        for (int i = 0; i < filaColor; i++) {
+            for (int j = 0; j < columnaColor; j++) {
+                if(colorBuscado.equalsIgnoreCase(colores[i][j])){
+                    encontrado = true;
+                }
+            }
+        }
+        
+        return encontrado;
+    }
+}
