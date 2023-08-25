@@ -1,0 +1,66 @@
+import java.util.Scanner;
+
+/**
+ *
+ * 3. Enseñar las vocales al sistema almacenarlas en una matriz, luego pedir una letra y comprobar si es una vocal	
+   3. Teach the vowels to the system store them in an array, then ask for a letter and check if it is a vowel		
+
+ * 
+ */
+public class VocalMatriz {
+
+   
+    public static void main(String[] args) {
+       
+        Scanner sc = new Scanner(System.in);
+        
+        int filaVocal = 1;
+        int columnaVocal = 5;
+        
+        String vocales[][] = new String[filaVocal][columnaVocal];
+       
+
+        for (int i = 0; i < filaVocal; i++) {
+            for (int j = 0; j < columnaVocal; j++) {
+                System.out.print("Ingrese la vocal en la posición "+i+" "+j+" : ");
+                vocales[i][j] = sc.nextLine();
+            }
+        }
+        
+        System.out.println("Ingrese la vocal a buscar: ");
+        String vocalBuscada = sc.nextLine();
+        
+        boolean vocalEncontrada = false;
+        
+        vocalEncontrada = verificarVocal(vocales,vocalBuscada);
+        
+        if(vocalEncontrada){
+            System.out.println("La vocal fue encontrada!! ");
+        }else{
+            System.out.println("No encontrada!! ");
+        }
+        
+    }
+    
+    public static boolean verificarVocal(String[][] vocales, String vocalBuscada){
+        boolean vocalEncontrada = false;
+        
+        
+        int filaVocal = 1;
+        int columnaVocal = 5;
+        
+        for (int i = 0; i < filaVocal; i++) {
+            
+            for (int j = 0; j < columnaVocal; j++) {
+                if(vocalBuscada.equalsIgnoreCase(vocales[i][j])){
+                    vocalEncontrada = true;
+                    break;
+                }
+            }
+        }
+        
+        return vocalEncontrada;
+        
+    }
+    
+}
