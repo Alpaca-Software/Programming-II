@@ -11,6 +11,8 @@
 //             de un salario mínimo, añade una prima
 //             de transporte.
 
+// TODO: No creo que esto pase por «Clean Code»...
+
 public class TransportBonus {
   
   // Constants.
@@ -25,17 +27,16 @@ public class TransportBonus {
     System.out.printf("Salario Mínimo: $%.0f\n", MINIMUM_WAGE);
     System.out.printf("Prima de Transporte: $%.0f\n", TRANSPORT_BONUS);
     
+    // TODO: Maybe it can be refactored in a better way?
     System.out.printf("\nSalario del Trabajador: $%.0f\n", salary);
-
-
-    if (salary < MINIMUM_WAGE) {
-      System.out.println("Prima de Transporte: Sí");
-      System.out.printf("\nTotal a Pagar: $%.0f\n", salary + TRANSPORT_BONUS);
-
-      return;
-    }
-
-    System.out.println("Prima de Transporte: No");
-    System.out.printf("\nTotal a Pagar: $%.0f\n", salary);
+    System.out.printf("Prima de Transporte: %s.\n",
+      salary < MINIMUM_WAGE ? "Sí": "No"
+    );
+    
+    System.out.printf("\nTotal a Pagar: $%.0f\n",
+      salary < MINIMUM_WAGE ?
+        salary + TRANSPORT_BONUS:
+          salary
+    );
   }
 }
