@@ -1,4 +1,4 @@
-package com.mycompany.main;
+package Example1;
 
 public class Number {
    final String[] NAMES = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};

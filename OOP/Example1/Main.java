@@ -1,5 +1,6 @@
 
-package com.mycompany.main;
+package Example1;
+
 import java.util.*;
 public class Main {
 
