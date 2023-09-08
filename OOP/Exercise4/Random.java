@@ -1,4 +1,4 @@
-package com.mycompany.main4;
+package Exercise4;
 public class Random {
     public int number;
 

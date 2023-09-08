@@ -1,5 +1,5 @@
 
-
+package Exercise3;
 
 /**
  "3. Store a text in a variable and request a word by keyboard and look for it in the text,

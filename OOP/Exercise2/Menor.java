@@ -1,5 +1,5 @@
 
-package com.mycompany.main2;
+package Exercise2;
 
 
 public class Menor {

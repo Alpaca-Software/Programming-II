@@ -1,5 +1,5 @@
 
-package main;
+package Exercise5;
 
 import java.util.*;
 public class Main {

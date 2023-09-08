@@ -1,5 +1,5 @@
 
-package com.mycompany.main2;
+package Exercise2;
 
 /**
  2. Solicite dos números por teclado y muestre el menor de los dos
@@ -8,7 +8,7 @@ package com.mycompany.main2;
  */
 import java.util.*;
 
-public class Main2 {
+public class Main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

@@ -1,5 +1,5 @@
 
-package com.mycompany.metodo3;
+package Exercise3;
 
 public class Container {
     public String text,word;

@@ -1,4 +1,4 @@
-package com.mycompany.main4;
+package Exercise4;
 
 /**
  * 4. Solicitar y almacenar un número por teclado y generar un número con la
@@ -7,7 +7,7 @@ package com.mycompany.main4;
  */
 import java.util.*;
 
-public class Main4 {
+public class Main {
 
     public static void main(String[] args) {
 
