@@ -1,5 +1,5 @@
 
-package com.mycompany.main1;
+package Exercise1A;
 
 public class Word {
    public String word;
