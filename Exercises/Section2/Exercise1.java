@@ -1,11 +1,11 @@
 // Topic: CONTROL STRUCTURES - Estructuras de Control.
 
-// Exercise 1: Request a digit by keyboard and 
-//             display its value in words on 
-//             the console.	
+// Exercise 1: Request a digit by keyboard and
+//             display its value in words on
+//             the console.
 //
-//             Solicita un dígito por teclado y 
-//             muestra su valor en palabras en 
+//             Solicita un dígito por teclado y
+//             muestra su valor en palabras en
 //             la consola.
 
 import java.util.Scanner;
