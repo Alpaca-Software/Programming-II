@@ -1,13 +1,13 @@
 // Topic: ARITHMETIC OPERATORS - Operadores Aritméticos.
 
-// Exercise 3: An architect needs to find the 
+// Exercise 3: An architect needs to find the
 //             area of a rectangular lot, check
 //             the formula with your classmates
-//             or on the internet.	
+//             or on the internet.
 //
 //             Un arquitecto necesita hallar el
 //             área de un terreno rectangular,
-//             comprueba la fórmula con tus 
+//             comprueba la fórmula con tus
 //             compañeros o en Internet.
 
 // Fórmula: Largo * Ancho.
@@ -22,13 +22,10 @@ public class Area {
     // Maybe we should consider using `java.util.Scanner`?
     float length = 30; // In Meters.
     float width = 10; // In Meters.
-    
-    
+
     System.out.printf("Largo: %.2f m\n", length);
     System.out.printf("Ancho: %.2f m\n", width);
-    
-    System.out.printf("\nÁrea: %.2f m²\n",
-      length * width
-    );
+
+    System.out.printf("\nÁrea: %.2f m²\n", length * width);
   }
 }
