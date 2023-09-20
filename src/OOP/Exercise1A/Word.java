@@ -1,4 +1,4 @@
-package Exercise1A;
+package OOP.Exercise1A;
 
 public class Word {
   public String word;

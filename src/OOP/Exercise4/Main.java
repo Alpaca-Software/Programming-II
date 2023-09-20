@@ -1,4 +1,4 @@
-package Exercise4;
+package OOP.Exercise4;
 
 /**
  * 4. Solicitar y almacenar un número por teclado y generar un número con la función aleatoria,

@@ -1,4 +1,4 @@
-package Example2;
+package OOP.Example2;
 
 public class Main {
 

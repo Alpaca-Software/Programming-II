@@ -1,4 +1,4 @@
-package Exercise5;
+package OOP.Exercise5;
 
 import java.util.*;
 

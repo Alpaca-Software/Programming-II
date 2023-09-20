@@ -1,3 +1,5 @@
+package OOP.Exercise6;
+
 public class Area {
   float height, base;
 

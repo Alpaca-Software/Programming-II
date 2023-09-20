@@ -4,6 +4,8 @@
 // Ejercicio 1: Solicite una palabra mediante el teclado y muéstrela en la
 // pantalla letra por letra, usando [ toCharArray() ].
 
+package OOP.Exercise1;
+
 import java.util.Scanner;
 
 public class Main {

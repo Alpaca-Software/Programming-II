@@ -1,7 +1,9 @@
+package OOP.Exercise7;
+
 /** 7. Request two numbers by keyboard, and show the greater of the two */
 import java.util.*;
 
-public class Main7 {
+public class Main {
 
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);

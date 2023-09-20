@@ -1,3 +1,5 @@
+package OOP.Exercise7;
+
 /** show greater */
 public class Greater {
   float numberOne, numberTwo;

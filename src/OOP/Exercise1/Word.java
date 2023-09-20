@@ -1,3 +1,5 @@
+package OOP.Exercise1;
+
 public class Word {
   String word;
 
