@@ -1,3 +1,12 @@
 
-# Java Class Files (Compilation).
+# Gradle.
+/.gradle/
+/.settings/
+/.classpath
+/.project
+
+# Build Result.
+/build/
+
+# Java Class Files.
 /**/*.class

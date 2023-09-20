@@ -1,4 +1,4 @@
-package Example1;
+package OOP.Example1;
 
 import java.util.*;
 

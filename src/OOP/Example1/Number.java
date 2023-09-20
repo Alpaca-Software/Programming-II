@@ -1,4 +1,4 @@
-package Example1;
+package OOP.Example1;
 
 public class Number {
   final String[] NAMES = {

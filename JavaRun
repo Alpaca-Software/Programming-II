@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+PROJECT=$1
+SOURCES=src/OOP
+
+if [ $# -eq 0 ]; then
+	echo Avaible Projects:
+	for project in $SOURCES/*; do
+		printf " - %s\n" $(basename $project)
+	done
+	exit
+fi
+
+
+if [ ! -d "$SOURCES/$PROJECT" ]; then
+	echo No existe el proyecto $PROJECT.
+	exit 1
+fi
+
+gradle -q build$PROJECT && java -jar build/libs/$PROJECT.jar
