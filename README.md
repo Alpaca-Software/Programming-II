@@ -17,3 +17,7 @@ Ejercicios resueltos para la clase de Programación II.
 
 - [Planeador en inglés](https://docs.google.com/spreadsheets/d/1qXFiYT6Dqq6whIq-G9dGMLRwa4sE5a3S1qb_ZJIJ_Xc/edit#gid=0).
 - [Planeador en español](https://docs.google.com/spreadsheets/d/1VPYsz411SiMPm03Z_9X83qtcKfL4C7E9iElGhiRomq4/edit#gid=0).
+
+## CLI
+
+Se está comenzando a implementar construcciones automatizadas con Gradle, por el momento no funciona muy bien, por lo que es mejor crear un nuevo proyecto en su IDE y copiar los archivos (por el momento).
