@@ -18,4 +18,3 @@ public class Main {
     new Word(word).printSlow();
   }
 }
-
