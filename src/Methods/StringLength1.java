@@ -1,4 +1,3 @@
-
 package Methods;
 
 public class StringLength1 {
