@@ -1,4 +1,6 @@
-public class Metodo {
+package Methods;
+
+public class StringCharAt2 {
 
     public static void main(String[] args) {
         // charAt(); el metodo lo que hace es indicar el caracter según la posición que yo le indique. comienza en 0
