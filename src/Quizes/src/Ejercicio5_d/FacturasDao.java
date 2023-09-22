@@ -1,34 +1,28 @@
-
 package Ejercicio5_d;
 
-
-
 public class FacturasDao {
-    
-    private String nombreProducto;
-    private double precioproducto;
 
-    public FacturasDao(String nombreProducto, double precioproducto) {
-        this.nombreProducto = nombreProducto;
-        this.precioproducto = precioproducto;
-    }
+  private String nombreProducto;
+  private double precioproducto;
 
-    public String getNombreProducto() {
-        return nombreProducto;
-    }
+  public FacturasDao(String nombreProducto, double precioproducto) {
+    this.nombreProducto = nombreProducto;
+    this.precioproducto = precioproducto;
+  }
 
-    public void setNombreProducto(String nombreProducto) {
-        this.nombreProducto = nombreProducto;
-    }
+  public String getNombreProducto() {
+    return nombreProducto;
+  }
 
-    public double getPrecioproducto() {
-        return precioproducto;
-    }
+  public void setNombreProducto(String nombreProducto) {
+    this.nombreProducto = nombreProducto;
+  }
 
-    public void setPrecioproducto(double precioproducto) {
-        this.precioproducto = precioproducto;
-    }
-    
-    
-   
+  public double getPrecioproducto() {
+    return precioproducto;
+  }
+
+  public void setPrecioproducto(double precioproducto) {
+    this.precioproducto = precioproducto;
+  }
 }

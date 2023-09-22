@@ -1,78 +1,80 @@
-
 package Ejercicio2_2;
 
-public class Administrativo extends Persona  {
-    
-    private int numeroAños;
+public class Administrativo extends Persona {
 
-    public Administrativo(int numeroAños, String nombre, String apellido, String telefono, int edad, String direccion, String sexo) {
-        
-        super(nombre, apellido, telefono, edad, direccion, sexo);
-        this.numeroAños = numeroAños;
-    }
+  private int numeroAños;
 
-    public int getNumeroAños() {
-        return numeroAños;
-    }
+  public Administrativo(
+      int numeroAños,
+      String nombre,
+      String apellido,
+      String telefono,
+      int edad,
+      String direccion,
+      String sexo) {
 
-    public void setNumeroAños(int numeroAños) {
-        this.numeroAños = numeroAños;
-    }
+    super(nombre, apellido, telefono, edad, direccion, sexo);
+    this.numeroAños = numeroAños;
+  }
 
-    public String getNombre() {
-        return nombre;
-    }
+  public int getNumeroAños() {
+    return numeroAños;
+  }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
+  public void setNumeroAños(int numeroAños) {
+    this.numeroAños = numeroAños;
+  }
 
-    public String getApellido() {
-        return apellido;
-    }
+  public String getNombre() {
+    return nombre;
+  }
 
-    public void setApellido(String apellido) {
-        this.apellido = apellido;
-    }
+  public void setNombre(String nombre) {
+    this.nombre = nombre;
+  }
 
-    public String getTelefono() {
-        return telefono;
-    }
+  public String getApellido() {
+    return apellido;
+  }
 
-    public void setTelefono(String telefono) {
-        this.telefono = telefono;
-    }
+  public void setApellido(String apellido) {
+    this.apellido = apellido;
+  }
 
-    public int getEdad() {
-        return edad;
-    }
+  public String getTelefono() {
+    return telefono;
+  }
 
-    public void setEdad(int edad) {
-        this.edad = edad;
-    }
+  public void setTelefono(String telefono) {
+    this.telefono = telefono;
+  }
 
-    public String getDireccion() {
-        return direccion;
-    }
+  public int getEdad() {
+    return edad;
+  }
 
-    public void setDireccion(String direccion) {
-        this.direccion = direccion;
-    }
+  public void setEdad(int edad) {
+    this.edad = edad;
+  }
 
-    public String getSexo() {
-        return sexo;
-    }
+  public String getDireccion() {
+    return direccion;
+  }
 
-    public void setSexo(String sexo) {
-        this.sexo = sexo;
-    }
+  public void setDireccion(String direccion) {
+    this.direccion = direccion;
+  }
 
-    @Override
-    public String toString() {
-        return "Administrativo{" + "numeroA\u00f1os=" + numeroAños + '}'+super.toString();
-    }
-    
-    
-    
-    
+  public String getSexo() {
+    return sexo;
+  }
+
+  public void setSexo(String sexo) {
+    this.sexo = sexo;
+  }
+
+  @Override
+  public String toString() {
+    return "Administrativo{" + "numeroA\u00f1os=" + numeroAños + '}' + super.toString();
+  }
 }

@@ -1,36 +1,38 @@
-
 package E2;
 
 public class Paciente {
-    
-    private double pesoPaciente;
-    private double alturaPaciente;
 
-    public Paciente(double pesoPaciente, double alturaPaciente) {
-        this.pesoPaciente = pesoPaciente;
-        this.alturaPaciente = alturaPaciente;
-    }
+  private double pesoPaciente;
+  private double alturaPaciente;
 
-    public double getPesoPaciente() {
-        return pesoPaciente;
-    }
+  public Paciente(double pesoPaciente, double alturaPaciente) {
+    this.pesoPaciente = pesoPaciente;
+    this.alturaPaciente = alturaPaciente;
+  }
 
-    public void setPesoPaciente(double pesoPaciente) {
-        this.pesoPaciente = pesoPaciente;
-    }
+  public double getPesoPaciente() {
+    return pesoPaciente;
+  }
 
-    public double getAlturaPaciente() {
-        return alturaPaciente;
-    }
+  public void setPesoPaciente(double pesoPaciente) {
+    this.pesoPaciente = pesoPaciente;
+  }
 
-    public void setAlturaPaciente(double alturaPaciente) {
-        this.alturaPaciente = alturaPaciente;
-    }
+  public double getAlturaPaciente() {
+    return alturaPaciente;
+  }
 
-    @Override
-    public String toString() {
-        return "Paciente{" + "pesoPaciente=" + pesoPaciente + ", alturaPaciente=" + alturaPaciente + '}';
-    }
-    
-    
+  public void setAlturaPaciente(double alturaPaciente) {
+    this.alturaPaciente = alturaPaciente;
+  }
+
+  @Override
+  public String toString() {
+    return "Paciente{"
+        + "pesoPaciente="
+        + pesoPaciente
+        + ", alturaPaciente="
+        + alturaPaciente
+        + '}';
+  }
 }

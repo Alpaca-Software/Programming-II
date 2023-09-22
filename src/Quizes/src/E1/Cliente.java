@@ -1,38 +1,33 @@
-
 package E1;
 
 public class Cliente {
-    
-    private String nombreCliente;
-    private String cedulaCliente;
 
-    public Cliente(String nombreCliente, String cedulaCliente) {
-        this.nombreCliente = nombreCliente;
-        this.cedulaCliente = cedulaCliente;
-    }
+  private String nombreCliente;
+  private String cedulaCliente;
 
-    public String getNombreCliente() {
-        return nombreCliente;
-    }
+  public Cliente(String nombreCliente, String cedulaCliente) {
+    this.nombreCliente = nombreCliente;
+    this.cedulaCliente = cedulaCliente;
+  }
 
-    public void setNombreCliente(String nombreCliente) {
-        this.nombreCliente = nombreCliente;
-    }
+  public String getNombreCliente() {
+    return nombreCliente;
+  }
 
-    public String getCedulaCliente() {
-        return cedulaCliente;
-    }
+  public void setNombreCliente(String nombreCliente) {
+    this.nombreCliente = nombreCliente;
+  }
 
-    public void setCedulaCliente(String cedulaCliente) {
-        this.cedulaCliente = cedulaCliente;
-    }
+  public String getCedulaCliente() {
+    return cedulaCliente;
+  }
 
-    @Override
-    public String toString() {
-        return "Cliente{" + "nombreCliente=" + nombreCliente + ", cedulaCliente=" + cedulaCliente + '}';
-    }
-    
-    
-    
-    
+  public void setCedulaCliente(String cedulaCliente) {
+    this.cedulaCliente = cedulaCliente;
+  }
+
+  @Override
+  public String toString() {
+    return "Cliente{" + "nombreCliente=" + nombreCliente + ", cedulaCliente=" + cedulaCliente + '}';
+  }
 }

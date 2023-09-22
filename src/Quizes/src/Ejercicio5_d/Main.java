@@ -5,6 +5,4 @@
 */
 package Ejercicio5_d;
 
-public class Main {
-    
-}
+public class Main {}
