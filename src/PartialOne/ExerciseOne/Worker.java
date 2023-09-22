@@ -1,4 +1,4 @@
-package coco77.parcial;
+package PartialOne.ExerciseOne;
 
 /** */
 public class Worker {

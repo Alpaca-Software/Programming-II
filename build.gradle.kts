@@ -20,10 +20,10 @@ tasks.withType<JavaCompile> {
     options.encoding = "UTF-8"
 }
 
-val cmdDirs = file("src/OOP").listFiles()?.filter { it.isDirectory() } ?: emptyList()
+val projectsOOP = file("src/OOP").listFiles()?.filter { it.isDirectory() } ?: emptyList()
 
 // Create a compilation task for each directory.
-cmdDirs.forEach { dir ->
+projectsOOP.forEach { dir ->
     tasks.register<Jar>("build-OOP-${dir.name.capitalize()}") {
         group = "build"
 
@@ -33,6 +33,23 @@ cmdDirs.forEach { dir ->
 
 	from(sourceSets.main.get().output)
 	archiveBaseName.set("OOP-${dir.name}")
+        archiveVersion.set("")
+    }
+}
+
+val projectsPartialOne = file("src/PartialOne").listFiles()?.filter { it.isDirectory() } ?: emptyList()
+
+// Create a compilation task for each directory.
+projectsPartialOne.forEach { dir ->
+    tasks.register<Jar>("build-PartialOne-${dir.name.capitalize()}") {
+        group = "build"
+
+	manifest {
+	    attributes["Main-Class"] = "PartialOne.${dir.name}.Main"
+	}
+
+	from(sourceSets.main.get().output)
+	archiveBaseName.set("PartialOne-${dir.name}")
         archiveVersion.set("")
     }
 }

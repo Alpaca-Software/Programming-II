@@ -1,4 +1,4 @@
-package coco77.partialthree;
+package PartialOne.ExerciseThree;
 
 /**
  * @author pinto

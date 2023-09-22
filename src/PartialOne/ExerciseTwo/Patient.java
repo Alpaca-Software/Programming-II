@@ -1,4 +1,4 @@
-package coco77.partialtwo;
+package PartialOne.ExerciseTwo;
 
 // ❤77❤️//️
 public class Patient {

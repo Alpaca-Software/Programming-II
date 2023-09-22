@@ -1,11 +1,11 @@
-package coco77.parcial;
+package PartialOne.ExerciseFour;
 
 /**
  * "4. You have a list of students with the following data: name, score of the first partial, score
  * of the second partial, total score of the quizes and the score of the final exam. It is necessary
  * to know if the student passes the subject."
  */
-public class Parcial {
+public class Main {
 
   public static void main(String[] args) {
     String name = "Felipe Pinto";

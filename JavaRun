@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 SOURCE=src
-SECTIONS=(Methods OOP)
+SECTIONS=(Methods OOP PartialOne)
 
 if [ $# -eq 0 ]; then
 	echo "Avaible Sections & Projects:"

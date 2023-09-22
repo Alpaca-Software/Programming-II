@@ -1,10 +1,10 @@
-package coco77.partialtwo;
+package PartialOne.ExerciseTwo;
 
 /**
  * "2. A doctor needs the IMC of patients. Create a list with the document, weight and height, now
  * you need to average the IMC calculated during the day."
  */
-public class PartialTwo {
+public class Main {
 
   public static void main(String[] args) {
 

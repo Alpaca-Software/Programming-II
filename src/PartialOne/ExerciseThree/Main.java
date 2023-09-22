@@ -1,10 +1,10 @@
-package coco77.partialthree;
+package PartialOne.ExerciseThree;
 
 /*"3. An architect has a list of lots:
 the data of the lots is as follows: figure type
       (TRIANGLE, RECTANGLE, SQUARE),
 the base and the height. The total surface area of the lots is needed."*/
-public class PartialThree {
+public class Main {
 
   public static void main(String[] args) {
     float baseTriangle = 5;

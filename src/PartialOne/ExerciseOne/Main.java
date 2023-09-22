@@ -1,11 +1,11 @@
-package coco77.parcial;
+package PartialOne.ExerciseOne;
 
 /*"1. Create a list of employees with the following data:
 the document, name and days worked,
      you need to calculate the salary to be paid to each
 worker to know the total value of the payroll."*/
 
-public class Parcial {
+public class Main {
 
   public static void main(String[] args) {
 
