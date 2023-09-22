@@ -11,6 +11,7 @@
 //              valor del día.
 
 package Exercises.Section1;
+
 public class Exercise1 {
 
   // Constants.
