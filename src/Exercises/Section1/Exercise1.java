@@ -10,7 +10,8 @@
 //              número de días trabajados y el
 //              valor del día.
 
-public class Salary {
+package Exercises.Section1;
+public class Exercise1 {
 
   // Constants.
   static final float VALUE_DAY = 50_000f;

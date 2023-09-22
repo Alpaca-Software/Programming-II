@@ -1,31 +1,9 @@
 #!/usr/bin/env bash
 
-SOURCE=src
-SECTIONS=(Methods OOP PartialOne)
-
 if [ $# -eq 0 ]; then
-	echo "Avaible Sections & Projects:"
-
-	for section in "${SECTIONS[@]}"; do
-		printf "\n * %s:\n" $section
-
-		for project in $SOURCE/$section/*; do
-			printf "   - %s\n" $(basename $project .java)
-		done
-	done
+	echo "Available Projects:"
+	gradle tasks --all | grep build-
 	exit
 fi
 
-if [ $# -eq 1 ]; then
-	echo Se requieren 2 argumentos, la sección y el proyecto.
-	exit 1
-fi
-
-if [ ! -d "$SOURCE/$1/$2" ]; then
-	if [ ! -f "$SOURCE/$1/$2.java" ]; then
-		echo No existe la sección/proyecto: $1-$2.
-		exit 1
-	fi
-fi
-
-gradle -q build-$1-$2 && java -jar build/libs/$1-$2.jar
+gradle -q build-$1 && java -jar build/libs/$1.jar
