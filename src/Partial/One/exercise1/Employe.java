@@ -1,6 +1,5 @@
 package coco77.exercise1;
 
-
 public class Employe {
   private String document;
   private String name;
