@@ -6,17 +6,15 @@
 package Partial.One.Exercise10;
 
 public class Main {
-	public static void main(String[] args) {
-	  int[] inputs = {
-		1, 3, 5, 3, 6, 664, 23, 6, 23, 64, 0, 9, -2
-	  };
+  public static void main(String[] args) {
+    int[] inputs = {1, 3, 5, 3, 6, 664, 23, 6, 23, 64, 0, 9, -2};
 
-	  Integer[] integers = new Integer[inputs.length];
+    Integer[] integers = new Integer[inputs.length];
 
-	  for (int i = 0; i < inputs.length; i++) {
-		integers[i] = new Integer(inputs[i]);
-	  }
+    for (int i = 0; i < inputs.length; i++) {
+      integers[i] = new Integer(inputs[i]);
+    }
 
-	  System.out.printf("Number of digits: %d\n", Integer.countDigits(integers));
-	}
+    System.out.printf("Number of digits: %d\n", Integer.countDigits(integers));
+  }
 }
