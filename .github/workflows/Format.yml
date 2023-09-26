@@ -1,8 +1,8 @@
 name: Format
 
 on:
-  push:
-    branches: [ main ]
+  schedule:
+    cron: 0,10,20,30,50,59 8 * * 3,5 # At minute 0, 10, 20, 30, 50, and 59 past hour 8 on Wednesday and Friday.
 
 jobs:
 
