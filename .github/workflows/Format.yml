@@ -2,7 +2,7 @@ name: Format
 
 on:
   schedule:
-    cron: 0,10,20,30,50,59 8 * * 3,5 # At minute 0, 10, 20, 30, 50, and 59 past hour 8 on Wednesday and Friday.
+    - cron: 0,10,20,30,50,59 3 * * 3,5 # At minute 0, 10, 20, 30, 50, and 59 past hour 8 on Wednesday and Friday.
 
 jobs:
 
