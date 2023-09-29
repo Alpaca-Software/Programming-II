@@ -2,7 +2,7 @@ name: Format
 
 on:
   schedule:
-    - cron: '*/5 1-2 * * 3,5'
+    - cron: '*/5 11-12 * * 3,5'
 
 jobs:
 
