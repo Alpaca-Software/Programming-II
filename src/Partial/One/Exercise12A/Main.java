@@ -8,16 +8,16 @@ package Partial.One.Exercise12A;
 public class Main {
 
     public static void main(String[] args) {
-        int input = 5;
-        boolean isEnglish = false;
+        int digit = 3;
+        boolean isEnglish = true;
 
         String name;
         if (isEnglish) {
-            name = new Digit(input).showEnglishName();
+            name = new Digit(digit).showEnglishName();
         } else {
-            name = new Digit(input).showSpanishName();
+            name = new Digit(digit).showSpanishName();
         }
 
-        System.out.printf("The name of digit %d is %s.\n", input, name);
+        System.out.printf("The name of digit %d is %s.\n", digit, name);
     }
 }
