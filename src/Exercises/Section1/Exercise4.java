@@ -10,7 +10,7 @@
 //             de un salario mínimo, añade una prima
 //             de transporte.
 
-public class TransportBonus {
+public class Exercise4 {
 
   // Constants.
   static final float MINIMUM_WAGE = 1_300_606;

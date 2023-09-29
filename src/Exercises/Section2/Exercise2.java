@@ -1,3 +1,5 @@
+package exercises.section2;
+
 // Topic: CONTROL STRUCTURES - Estructuras de Control.
 
 // Exercise 2: They provide you with two values
@@ -12,7 +14,7 @@
 
 import java.util.Scanner;
 
-public class Figures {
+public class Exercise2 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 

@@ -12,7 +12,7 @@
 
 // TODO: No creo que esto pase por «Clean Code»...
 
-public class TransportBonus {
+public class Exercise4A {
 
   // Constants.
   static final float MINIMUM_WAGE = 1_300_606;

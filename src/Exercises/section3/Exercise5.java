@@ -1,3 +1,5 @@
+package exercises.section3;
+
 // Methods - Métodos.
 
 // Exercise 5: Request numbers by keyboard using a

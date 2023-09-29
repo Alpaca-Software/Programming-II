@@ -1,10 +1,10 @@
-package fundamento;
+package exercises.section3;
 
 import java.util.Arrays;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 
-public class color {
+public class Exercise1 {
 
   static final String MORADO = "purple";
 

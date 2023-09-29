@@ -15,7 +15,7 @@
 // Ejemplo: Largo = 30 m; Ancho = 10 m.
 // Cálculo: 30 * 10 = 300 m².
 
-public class Area {
+public class Exercise3 {
 
   public static void main(String[] args) {
     // Inputs.

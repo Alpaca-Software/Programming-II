@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejercicio23;
+package exercises.section2;
 
 import java.util.Scanner;
 
@@ -12,7 +12,7 @@ import java.util.Scanner;
  * 3. Enseñar las vocales al sistema a través de un SWITCH, luego pedir una letra en el teclado y comprobar si es una vocal.
  * 
  */
-public class Ejercicio23 {
+public class Exercise3 {
 
     /**
      * @param args the command line arguments

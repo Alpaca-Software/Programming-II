@@ -14,7 +14,7 @@
 // Ejemplo: Peso = 68 kg, Estatura = 165 cm (1.65 m).
 // Cálculo: 68 ÷ (1.65)2 = 24.98.
 
-public class IMC {
+public class Exercise2 {
 
   public static void main(String[] args) {
     // Inputs.

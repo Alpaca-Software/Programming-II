@@ -1,3 +1,5 @@
+package exercises.section2;
+
 // Topic: CONTROL STRUCTURES - Estructuras de Control.
 
 // Exercise 1: Request a digit by keyboard and
@@ -10,7 +12,7 @@
 
 import java.util.Scanner;
 
-public class Request {
+public class Exercise1 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 
