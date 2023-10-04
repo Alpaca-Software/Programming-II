@@ -8,45 +8,41 @@ package exercises.section2;
 import java.util.Scanner;
 
 /**
- *
- * 3. Enseñar las vocales al sistema a través de un SWITCH, luego pedir una letra en el teclado y comprobar si es una vocal.
- * 
+ * 3. Enseñar las vocales al sistema a través de un SWITCH, luego pedir una letra en el teclado y
+ * comprobar si es una vocal.
  */
 public class Exercise3 {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        
-        Scanner sc = new Scanner(System.in);
-        
-        System.out.println("Ingrese una letra para corroborrar que sea una vocal ");
-        
-        String vocal = sc.nextLine();
-        
- 
-          
-  switch (vocal.toLowerCase()) { 
-    case "a":
+  /**
+   * @param args the command line arguments
+   */
+  public static void main(String[] args) {
+
+    Scanner sc = new Scanner(System.in);
+
+    System.out.println("Ingrese una letra para corroborrar que sea una vocal ");
+
+    String vocal = sc.nextLine();
+
+    switch (vocal.toLowerCase()) {
+      case "a":
         System.out.println("Es una vocal");
-     break;
-    case "e":
+        break;
+      case "e":
         System.out.println("Es una vocal");
-     break;
-    case "i":
+        break;
+      case "i":
         System.out.println("Es una vocal");
-     break;
-    case "o":
+        break;
+      case "o":
         System.out.println("Es una vocal");
-     break;
-    case "u":
+        break;
+      case "u":
         System.out.println("Es una vocal");
-     break;
- 
-    default:
+        break;
+
+      default:
         System.out.println("No es una vocal");
-  }
     }
-    
+  }
 }
