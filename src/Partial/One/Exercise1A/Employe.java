@@ -1,4 +1,4 @@
-package coco77.exercise1;
+package Partial.One.Exercise1A;
 
 public class Employe {
   private String document;

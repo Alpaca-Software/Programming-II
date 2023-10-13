@@ -1,4 +1,4 @@
-package coco77.exercise1;
+package Partial.Two.Exercise1;
 
 public class Employe {
 

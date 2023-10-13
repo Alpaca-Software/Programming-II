@@ -1,4 +1,4 @@
-package coco77.exercise1;
+package Partial.One.Exercise1A;
 
 /**
  * "1. Create a list of employees with the following data: the document, name and days worked, you
