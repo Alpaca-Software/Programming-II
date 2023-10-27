@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-
-if [ $# -eq 0 ]; then
-	echo "Available Projects:"
-	gradle tasks --all | grep build-
-	exit
-fi
-
-gradle -q build-$1 && java -jar build/libs/$1.jar
