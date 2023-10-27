@@ -10,13 +10,13 @@ public class main {
 
     List<Area> areas = new ArrayList<>();
 
-    areas.add(new Area(10f, 34f));
-    areas.add(new Area(60f, 70f));
-    areas.add(new Area(70f, 40f));
-    areas.add(new Area(10f, 34f));
+    areas.add(new Area(10f, 10f));
+    areas.add(new Area(10f, 10f));
+    areas.add(new Area(10f, 10f));
+    areas.add(new Area(10f, 10f));
 
     float sum = 0;
     sum = Area.calculateSumOfAreas((ArrayList<Area>) areas);
-    System.out.println(sum);
+    System.out.println("la suma de los lotes es de: "+sum);
   }
 }
