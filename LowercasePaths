@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+for file in `find src -type d`; do
+  echo Renaming: $file ...
+  mv $file `echo $file | sed 's/\(\/.\)/\L\1/g'`
+done
