@@ -17,6 +17,6 @@ public class main {
 
     float sum = 0;
     sum = Area.calculateSumOfAreas((ArrayList<Area>) areas);
-    System.out.println("la suma de los lotes es de: "+sum);
+    System.out.println("la suma de los lotes es de: " + sum);
   }
 }

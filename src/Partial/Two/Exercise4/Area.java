@@ -30,13 +30,12 @@ public class Area {
 
   public static float calculateSumOfAreas(List<Area> areas) {
 
-      System.out.println(areas);
-      
-      for (Area a : areas) {
-          sumAreas += a.base*a.height;
-      }
-      
-      
+    System.out.println(areas);
+
+    for (Area a : areas) {
+      sumAreas += a.base * a.height;
+    }
+
     return sumAreas;
   }
 }
