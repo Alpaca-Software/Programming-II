@@ -1,4 +1,4 @@
-package OOP.main;
+package oOP.main;
 
 public class Container {
 

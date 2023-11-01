@@ -1,4 +1,4 @@
-package tendencias.Ejercicio2_d;
+package extra.practice.ejercicio2_d;
 
 public class Perimetro {
 

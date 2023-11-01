@@ -1,4 +1,4 @@
-package Try;
+package language.try;
 
 import java.util.Scanner;
 

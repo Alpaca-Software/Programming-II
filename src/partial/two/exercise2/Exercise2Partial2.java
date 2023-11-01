@@ -1,4 +1,4 @@
-package Partial.Two.Exercise2;
+package partial.two.exercise2;
 
 /*"2. Del ejercicio anterior se deberá enviar la lista a un nuevo método y añadir una bonificación al salario si el trabajador gana menos de un MÍNIMO.
 Mostrar la nueva lista por consola."*/

@@ -9,7 +9,7 @@ ganar, debes revisar la lista y contar cuantos de ellos serán contratados,
 y todo depende de si el valor so licitado por cada trabajador es inferior a
 un MÍNIMO." */
 
-package Partial.One.Exercise9;
+package partial.one.exercise9;
 
 public class Main {
   public static void main(String[] args) {

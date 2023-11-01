@@ -1,4 +1,4 @@
-package tendencias.ejercicio6;
+package extra.practice.ejercicio6;
 
 import java.util.Scanner;
 

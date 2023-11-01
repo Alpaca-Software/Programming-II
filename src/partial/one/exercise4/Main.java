@@ -1,4 +1,4 @@
-package Partial.One.Exercise4;
+package partial.one.exercise4;
 
 /**
  * "4. You have a list of students with the following data: name, score of the first partial, score

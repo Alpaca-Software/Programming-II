@@ -3,7 +3,7 @@
 mediante un método comprobarás si existe el color morado.
 Ahora necesitas cambiar el valor a verde y mostrar el resultado."
 */
-package tendencias.Ejercicio3_d;
+package extra.practice.ejercicio3_d;
 
 public class Main {
   public static void main(String[] args) {

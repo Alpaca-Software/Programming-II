@@ -1,4 +1,4 @@
-package Partial.One.Exercise10;
+package partial.one.exercise10;
 
 public class Integer {
   int number;

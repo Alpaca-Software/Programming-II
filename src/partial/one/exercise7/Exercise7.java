@@ -1,4 +1,4 @@
-package Partial.One.Exercise7;
+package partial.one.exercise7;
 
 /**
  * "7. You must create a list of products with the following data: the name of the product, the IVA

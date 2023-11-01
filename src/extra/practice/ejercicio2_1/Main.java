@@ -4,7 +4,7 @@ de una compra venta, además de solicitar datos del
 objetos a negociar, como una descripción y el valor negociado, que representa
 entre el 10% y el 20% del valor real del producto”.
  */
-package tendencias.Ejercicio2_1;
+package extra.practice.ejercicio2_1;
 
 public class Main {
 

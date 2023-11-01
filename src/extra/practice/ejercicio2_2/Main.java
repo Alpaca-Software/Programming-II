@@ -6,7 +6,7 @@ la carrera de los alumnos, de los profesores necesitas
 el último posgrado realizado y de los administrativos
 el número de años trabajados.”
  */
-package tendencias.Ejercicio2_2;
+package extra.practice.ejercicio2_2;
 
 import java.util.ArrayList;
 

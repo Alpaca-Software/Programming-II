@@ -1,4 +1,4 @@
-package ExerciseClass.Pillares.coco77.javaapplicationtest;
+package exerciseClass.pillares.coco77.javaapplicationtest;
 
 import ExerciseClass.Pillares.newpackage.Customer;
 

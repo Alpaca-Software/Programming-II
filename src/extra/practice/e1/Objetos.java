@@ -1,4 +1,4 @@
-package tendencias.E1;
+package extra.practice.e1;
 
 public class Objetos {
 

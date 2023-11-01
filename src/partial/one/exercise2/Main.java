@@ -1,4 +1,4 @@
-package Partial.One.Exercise2;
+package partial.one.exercise2;
 
 /**
  * "2. A doctor needs the IMC of patients. Create a list with the document, weight and height, now

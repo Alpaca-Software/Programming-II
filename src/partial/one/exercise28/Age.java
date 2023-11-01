@@ -1,4 +1,4 @@
-package Partial.One.Exercise28;
+package partial.one.exercise28;
 
 public class Age {
 

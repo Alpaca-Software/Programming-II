@@ -1,4 +1,4 @@
-package OOP.Exercise6;
+package oOP.exercise6;
 
 /*
 "6. Desarrollar una aplicación que calcule el área y perímetro de un lote rectangular, las dimensiones son propuestas por usted,

@@ -1,4 +1,4 @@
-package tendencias.Ejercicio2_4;
+package extra.practice.ejercicio2_4;
 
 public class Urgente extends Correo {
 

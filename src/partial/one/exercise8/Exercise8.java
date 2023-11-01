@@ -1,4 +1,4 @@
-package Partial.One.Exercise8;
+package partial.one.exercise8;
 
 /*"8. You have a list of 6 people with the following information: the name and the value in money they contribute for a bingo card.
 These people won the jackpot of 1000000, the person who contributed the most money will receive 50% and is in the last

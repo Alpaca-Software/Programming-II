@@ -1,4 +1,4 @@
-package Partial.Two.exercise6;
+package partial.two.exercise6;
 
 import java.util.ArrayList;
 import java.util.List;

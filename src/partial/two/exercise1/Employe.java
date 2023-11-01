@@ -1,4 +1,4 @@
-package Partial.Two.Exercise1;
+package partial.two.exercise1;
 
 public class Employe {
 

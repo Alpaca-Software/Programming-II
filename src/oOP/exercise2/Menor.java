@@ -1,4 +1,4 @@
-package OOP.Exercise2;
+package oOP.exercise2;
 
 public class Menor {
   public int numberOne, numberTwo;

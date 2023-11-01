@@ -1,4 +1,4 @@
-package tendencias.E3;
+package extra.practice.e3;
 
 import java.util.Scanner;
 

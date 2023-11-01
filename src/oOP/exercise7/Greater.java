@@ -1,4 +1,4 @@
-package OOP.Exercise7;
+package oOP.exercise7;
 
 /** show greater */
 public class Greater {

@@ -1,4 +1,4 @@
-package Partial.One.Exercise8;
+package partial.one.exercise8;
 
 public class People {
 

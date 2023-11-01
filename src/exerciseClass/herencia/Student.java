@@ -1,4 +1,4 @@
-package ExerciseClass.Herencia;
+package exerciseClass.herencia;
 
 public class Student extends Person {
 

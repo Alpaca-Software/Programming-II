@@ -1,4 +1,4 @@
-package tendencias.Ejercicio1_d;
+package extra.practice.ejercicio1_d;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package OOP.Exercise4;
+package oOP.exercise4;
 
 public class Random {
   public int number;

@@ -1,4 +1,4 @@
-package tendencias.Ejercicio5_d;
+package extra.practice.ejercicio5_d;
 
 import java.util.ArrayList;
 

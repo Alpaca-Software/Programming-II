@@ -1,5 +1,5 @@
 
-package com.mycompany.exercise7;
+package partial.two.exercise7;
 import java.util.List;
 import java.util.ArrayList;
 

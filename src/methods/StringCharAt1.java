@@ -1,4 +1,4 @@
-package Methods;
+package methods;
 
 public class StringCharAt1 {
   public static void main(String[] args) {

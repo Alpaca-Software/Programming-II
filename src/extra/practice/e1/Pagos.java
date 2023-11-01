@@ -1,4 +1,4 @@
-package tendencias.E1;
+package extra.practice.e1;
 
 import java.util.ArrayList;
 import java.util.Scanner;

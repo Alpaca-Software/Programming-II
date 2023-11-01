@@ -4,7 +4,7 @@
 verifique la fórmula IMC con sus colegas o en Internet.
 
 */
-package tendencias.ejercicio2;
+package extra.practice.ejercicio2;
 
 import java.util.*;
 

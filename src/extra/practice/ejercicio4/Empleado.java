@@ -1,4 +1,4 @@
-package tendencias.ejercicio4;
+package extra.practice.ejercicio4;
 
 public class Empleado {
 

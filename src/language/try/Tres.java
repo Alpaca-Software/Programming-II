@@ -1,4 +1,4 @@
-package Try;
+package language.try;
 
 import java.io.BufferedWriter;
 import java.io.File;

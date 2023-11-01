@@ -1,4 +1,4 @@
-package OOP.Exercise3;
+package oOP.exercise3;
 
 public class Container {
   public String text, word;

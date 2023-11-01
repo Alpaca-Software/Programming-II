@@ -1,4 +1,4 @@
-package tendencias.ejercicio3;
+package extra.practice.ejercicio3;
 
 public class Lote {
 

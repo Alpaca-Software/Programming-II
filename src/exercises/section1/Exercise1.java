@@ -10,7 +10,7 @@
 //              número de días trabajados y el
 //              valor del día.
 
-package Exercises.Section1;
+package exercises.section1;
 
 public class Exercise1 {
 

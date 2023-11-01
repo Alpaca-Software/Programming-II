@@ -1,4 +1,4 @@
-package Methods;
+package methods;
 
 public class StringLength1 {
   public static void main(String[] args) {

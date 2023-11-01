@@ -1,4 +1,4 @@
-package tendencias.Ejercicio4_d;
+package extra.practice.ejercicio4_d;
 
 import java.util.Random;
 

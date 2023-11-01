@@ -1,4 +1,4 @@
-package OOP.Exercise2;
+package oOP.exercise2;
 
 /**
  * 2. Solicite dos números por teclado y muestre el menor de los dos 2. Request two numbers by

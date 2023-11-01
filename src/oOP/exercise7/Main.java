@@ -1,4 +1,4 @@
-package OOP.Exercise7;
+package oOP.exercise7;
 
 /** 7. Request two numbers by keyboard, and show the greater of the two */
 import java.util.*;

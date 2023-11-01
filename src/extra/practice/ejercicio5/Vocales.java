@@ -1,4 +1,4 @@
-package tendencias.ejercicio5;
+package extra.practice.ejercicio5;
 
 public class Vocales {
 

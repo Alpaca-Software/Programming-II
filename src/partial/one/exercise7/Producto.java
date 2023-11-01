@@ -1,4 +1,4 @@
-package Partial.One.Exercise7;
+package partial.one.exercise7;
 
 public class Producto {
 

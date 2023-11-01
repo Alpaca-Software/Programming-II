@@ -1,4 +1,4 @@
-package OOP.Exercise1A;
+package oOP.exercise1A;
 
 /*1. Solicite una palabra mediante el teclado y muéstrela en la pantalla letra por letra, usando [ toCharArray() ]
  1. Request a word by keyboard and display it on the screen letter by letter, using [ toCharArray() ]

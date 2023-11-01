@@ -1,4 +1,4 @@
-package tendencias.Ejercicio2_3;
+package extra.practice.ejercicio2_3;
 
 public abstract class Empleado {
 

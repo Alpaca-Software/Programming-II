@@ -2,7 +2,7 @@
 5. Enseñar las vocales al sistema a través de un SWITCH, luego pedir una letra ,
 en el teclado y comprobar si es una vocal
 */
-package tendencias.ejercicio5;
+package extra.practice.ejercicio5;
 
 import java.util.*;
 

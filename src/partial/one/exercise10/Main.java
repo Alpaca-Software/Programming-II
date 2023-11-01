@@ -3,7 +3,7 @@
 
 /* 10. Crea una lista de números enteros, con un bucle revísela y cuenta
  * cuántos números son dígitos y cuántos no son dígitos. */
-package Partial.One.Exercise10;
+package partial.one.exercise10;
 
 public class Main {
   public static void main(String[] args) {

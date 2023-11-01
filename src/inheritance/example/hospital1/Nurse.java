@@ -1,4 +1,4 @@
-package Inheritance.Example.Hospital1;
+package inheritance.example.hospital1;
 
 public class Nurse extends Person {
   private String code;

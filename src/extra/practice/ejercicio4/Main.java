@@ -3,7 +3,7 @@
 si percibe más de un salario mínimo,
 añadir un bono de transporte"
 */
-package tendencias.ejercicio4;
+package extra.practice.ejercicio4;
 
 import java.util.*;
 

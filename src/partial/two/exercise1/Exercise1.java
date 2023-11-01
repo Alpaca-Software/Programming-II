@@ -1,4 +1,4 @@
-package Partial.Two.Exercise1;
+package partial.two.exercise1;
 
 /**
  * "1. Elaborar una lista de empleados con los siguientes datos: nombre y días trabajados. Envía la

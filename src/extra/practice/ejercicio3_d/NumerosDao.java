@@ -1,4 +1,4 @@
-package tendencias.Ejercicio3_d;
+package extra.practice.ejercicio3_d;
 
 public class NumerosDao {
 

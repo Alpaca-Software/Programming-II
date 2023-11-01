@@ -1,4 +1,4 @@
-package tendencias.ejercicio2;
+package extra.practice.ejercicio2;
 
 public class Paciente {
 

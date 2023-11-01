@@ -2,7 +2,7 @@
 12. Request a digit by keyboard and display its value in words by console. The user can select the language for the word,
     allowing you to select between English and Spanish.
  */
-package Partial.One.Exercise12A;
+package partial.one.exercise12A;
 
 public class Main {
 

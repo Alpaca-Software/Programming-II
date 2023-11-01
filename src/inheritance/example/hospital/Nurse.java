@@ -1,4 +1,4 @@
-package Inheritance.Example.Hospital;
+package inheritance.example.hospital;
 
 public class Nurse extends Person {
 

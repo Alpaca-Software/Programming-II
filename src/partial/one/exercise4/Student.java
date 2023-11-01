@@ -1,4 +1,4 @@
-package Partial.One.Exercise4;
+package partial.one.exercise4;
 
 /** */
 public class Student {

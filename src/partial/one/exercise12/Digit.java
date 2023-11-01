@@ -1,4 +1,4 @@
-package Partial.One.Exercise12;
+package partial.one.exercise12;
 
 public class Digit {
 

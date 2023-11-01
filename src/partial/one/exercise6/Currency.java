@@ -1,4 +1,4 @@
-package Partial.One.Exercise6;
+package partial.one.exercise6;
 
 public class Currency {
 

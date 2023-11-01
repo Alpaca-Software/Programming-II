@@ -1,4 +1,4 @@
-package OOP.Example2;
+package oOP.example2;
 
 public class Person {
 

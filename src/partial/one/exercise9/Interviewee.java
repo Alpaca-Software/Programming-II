@@ -1,4 +1,4 @@
-package Partial.One.Exercise9;
+package partial.one.exercise9;
 
 public class Interviewee {
   String name;

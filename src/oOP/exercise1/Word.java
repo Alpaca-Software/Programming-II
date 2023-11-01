@@ -1,4 +1,4 @@
-package OOP.Exercise1;
+package oOP.exercise1;
 
 public class Word {
   String word;

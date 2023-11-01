@@ -1,4 +1,4 @@
-package ExerciseClass.MetodosStatic;
+package exerciseClass.metodosStatic;
 
 /*
 venta

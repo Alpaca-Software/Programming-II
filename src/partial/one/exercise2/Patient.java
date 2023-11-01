@@ -1,4 +1,4 @@
-package Partial.One.Exercise2;
+package partial.one.exercise2;
 
 // ❤77❤️//️
 public class Patient {

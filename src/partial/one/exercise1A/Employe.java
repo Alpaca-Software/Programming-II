@@ -1,4 +1,4 @@
-package Partial.One.Exercise1A;
+package partial.one.exercise1A;
 
 public class Employe {
   private String document;

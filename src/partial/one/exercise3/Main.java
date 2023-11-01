@@ -1,4 +1,4 @@
-package Partial.One.Exercise3;
+package partial.one.exercise3;
 
 /*"3. An architect has a list of lots:
 the data of the lots is as follows: figure type

@@ -1,4 +1,4 @@
-package Inheritance.Example.Hospital1;
+package inheritance.example.hospital1;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
