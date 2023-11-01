@@ -1,6 +1,6 @@
 package ExerciseClass.Pillares.coco77.javaapplicationtest;
 
-import newpackage.Customer;
+import ExerciseClass.Pillares.newpackage.Customer;
 
 /** */
 public class JavaApplicationTest {
