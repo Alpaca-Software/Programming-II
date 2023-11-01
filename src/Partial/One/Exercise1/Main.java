@@ -1,4 +1,4 @@
-package Partial.One.ExerciseOne;
+package Partial.One.Exercise1;
 
 /*"1. Create a list of employees with the following data:
 the document, name and days worked,

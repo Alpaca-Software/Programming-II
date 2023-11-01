@@ -1,4 +1,4 @@
-package exercises.section3;
+package Exercises.section3;
 
 // Methods - Métodos.
 

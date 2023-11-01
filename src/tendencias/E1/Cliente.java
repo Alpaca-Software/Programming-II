@@ -1,4 +1,4 @@
-package E1;
+package tendencias.E1;
 
 public class Cliente {
 

@@ -1,4 +1,4 @@
-package com.mycompany.exercise13;
+package Partial.One.Exercise13;
 
 public class Month {
 

@@ -1,4 +1,4 @@
-package Ejercicio2_1;
+package tendencias.Ejercicio2_1;
 
 public class Objeto {
 

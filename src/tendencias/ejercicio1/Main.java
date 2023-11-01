@@ -4,7 +4,7 @@
 de días trabajados y el valor del día.
 
 */
-package ejercicio1;
+package tendencias.ejercicio1;
 
 import java.util.*;
 

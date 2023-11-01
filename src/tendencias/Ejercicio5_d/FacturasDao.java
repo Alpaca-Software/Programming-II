@@ -1,4 +1,4 @@
-package Ejercicio5_d;
+package tendencias.Ejercicio5_d;
 
 public class FacturasDao {
 

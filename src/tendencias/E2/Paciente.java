@@ -1,4 +1,4 @@
-package E2;
+package tendencias.E2;
 
 public class Paciente {
 

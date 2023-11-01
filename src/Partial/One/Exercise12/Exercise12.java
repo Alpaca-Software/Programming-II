@@ -1,4 +1,4 @@
-package coco77.exercise12;
+package Partial.One.Exercise12;
 
 public class Exercise12 {
 

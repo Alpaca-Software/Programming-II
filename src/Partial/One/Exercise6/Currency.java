@@ -1,4 +1,4 @@
-package coco77.partial6;
+package Partial.One.Exercise6;
 
 public class Currency {
 

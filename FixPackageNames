@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+for file in `find src -name "*.java" -type f`; do
+	echo Updating: $file ...
+	
+	package="${file%/*}"
+	package="${package//\//.}"
+	package="${package//src./}"
+	
+	sed -i 's/^package .*;$/package '"$package"';/' $file
+done

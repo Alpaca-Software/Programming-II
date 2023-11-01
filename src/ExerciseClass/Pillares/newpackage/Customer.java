@@ -1,4 +1,4 @@
-package newpackage;
+package ExerciseClass.Pillares.newpackage;
 
 public class Customer {
 

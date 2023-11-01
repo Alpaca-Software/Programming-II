@@ -7,7 +7,7 @@ la carrera de los estudiantes, de los profesores necesitas
 el último posgrado completado y de los administrativos el número de años trabajados."
 
 */
-package E3;
+package tendencias.E3;
 
 public class Main {
   public static void main(String[] args) {}

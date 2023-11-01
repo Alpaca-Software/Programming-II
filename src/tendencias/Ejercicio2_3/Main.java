@@ -6,7 +6,7 @@ lo vendido al salario base.
 El salario base es un mínimo en Colombia"
  */
 
-package Ejercicio2_3;
+package tendencias.Ejercicio2_3;
 
 public class Main {
   public static void main(String[] args) {

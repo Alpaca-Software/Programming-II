@@ -2,7 +2,7 @@
  3. Un arquitecto necesita encontrar el área de un lote rectangular,
 revisa la fórmula con tus compañeros o en internet.
 */
-package ejercicio3;
+package tendencias.ejercicio3;
 
 import java.util.*;
 

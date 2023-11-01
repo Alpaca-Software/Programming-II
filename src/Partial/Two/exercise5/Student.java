@@ -1,4 +1,4 @@
-package coco77.exercise5;
+package Partial.Two.exercise5;
 
 import java.util.List;
 

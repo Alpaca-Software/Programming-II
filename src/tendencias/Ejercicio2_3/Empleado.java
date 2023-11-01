@@ -1,4 +1,4 @@
-package Ejercicio2_3;
+package tendencias.Ejercicio2_3;
 
 public abstract class Empleado {
 

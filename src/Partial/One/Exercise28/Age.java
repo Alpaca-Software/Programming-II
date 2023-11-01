@@ -1,4 +1,4 @@
-package coco77.exercise28;
+package Partial.One.Exercise28;
 
 public class Age {
 

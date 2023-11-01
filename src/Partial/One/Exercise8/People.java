@@ -1,4 +1,4 @@
-package coco77.exercise8;
+package Partial.One.Exercise8;
 
 public class People {
 

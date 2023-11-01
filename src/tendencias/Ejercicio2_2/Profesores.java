@@ -1,4 +1,4 @@
-package Ejercicio2_2;
+package tendencias.Ejercicio2_2;
 
 public class Profesores extends Persona {
 

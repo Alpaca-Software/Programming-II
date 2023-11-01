@@ -1,4 +1,4 @@
-package coco77.exercise7;
+package Partial.One.Exercise7;
 
 public class Producto {
 

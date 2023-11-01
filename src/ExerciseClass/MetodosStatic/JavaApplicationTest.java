@@ -1,4 +1,4 @@
-package javaapplicationtest;
+package ExerciseClass.MetodosStatic;
 
 /*
 venta

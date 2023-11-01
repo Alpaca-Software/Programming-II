@@ -1,4 +1,4 @@
-package coco77.exercise7;
+package Partial.One.Exercise7;
 
 /**
  * "7. You must create a list of products with the following data: the name of the product, the IVA

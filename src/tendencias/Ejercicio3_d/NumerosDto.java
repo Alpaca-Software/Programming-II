@@ -1,4 +1,4 @@
-package Ejercicio3_d;
+package tendencias.Ejercicio3_d;
 
 public class NumerosDto {
 

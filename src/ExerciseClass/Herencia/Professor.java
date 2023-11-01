@@ -1,4 +1,4 @@
-package javaapplication;
+package ExerciseClass.Herencia;
 
 public class Professor extends Person {
 

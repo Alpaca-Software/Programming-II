@@ -1,4 +1,4 @@
-package coco77.exercise28;
+package Partial.One.Exercise28;
 
 /**
  * 28. Store a list of ages in an array, now you want to know how many of them are minors and how

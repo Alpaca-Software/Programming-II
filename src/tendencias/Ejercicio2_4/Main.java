@@ -8,7 +8,7 @@ que se envía al crear los objetos,
 finalmente es necesario almacenar varios objetos de cada
 clase en un array y recorrerlo con un foreach."
 */
-package Ejercicio2_4;
+package tendencias.Ejercicio2_4;
 
 import java.util.ArrayList;
 

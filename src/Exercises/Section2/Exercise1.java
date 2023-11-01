@@ -1,4 +1,4 @@
-package exercises.section2;
+package Exercises.Section2;
 
 // Topic: CONTROL STRUCTURES - Estructuras de Control.
 

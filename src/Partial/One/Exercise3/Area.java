@@ -1,4 +1,4 @@
-package PartialOne.ExerciseThree;
+package Partial.One.Exercise3;
 
 /**
  * @author pinto

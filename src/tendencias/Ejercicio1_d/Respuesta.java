@@ -1,4 +1,4 @@
-package Ejercicio1_d;
+package tendencias.Ejercicio1_d;
 
 public class Respuesta {
 

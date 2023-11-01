@@ -1,4 +1,4 @@
-package coco77.partialfive;
+package Partial.One.Exercise5;
 
 public class Student {
 

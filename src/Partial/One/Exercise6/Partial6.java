@@ -1,4 +1,4 @@
-package coco77.partial6;
+package Partial.One.Exercise6;
 
 /*"6. Desarrollar un sistema monetario, al ingresar
 una cantidad de dólares o euros debo obtener su valor

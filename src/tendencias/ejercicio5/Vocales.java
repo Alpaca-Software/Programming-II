@@ -1,4 +1,4 @@
-package ejercicio5;
+package tendencias.ejercicio5;
 
 public class Vocales {
 

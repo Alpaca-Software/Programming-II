@@ -1,4 +1,4 @@
-package coco77.partialfive;
+package Partial.One.Exercise5;
 
 /**
  * "5. You must create a list of 3 students through the keyboard, request the following data: name,
