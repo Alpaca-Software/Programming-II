@@ -1,4 +1,4 @@
-package review.exercise1;
+package exercises.review.exercise1;
 
 import java.util.Scanner;
 
