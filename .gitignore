@@ -10,3 +10,6 @@
 
 # Java Class Files.
 /**/*.class
+
+# NetBeans.
+/nbproject/private/
