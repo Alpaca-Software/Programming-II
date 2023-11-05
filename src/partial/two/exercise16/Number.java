@@ -1,5 +1,5 @@
 
-package coco77.exercise16;
+package partial.two.exercise16;
 
 /*coco77
  */

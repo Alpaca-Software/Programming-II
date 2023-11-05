@@ -1,4 +1,4 @@
-package coco77.exercise15;
+package partial.two.exercise15;
 import java.util.ArrayList;
 
 public class Number {

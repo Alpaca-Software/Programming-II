@@ -1,5 +1,5 @@
 
-package coco77.exercise18;
+package partial.two.exercise18;
 /*
 18. Requests the name of a month by keyboard 
 and shows by console how many months are 

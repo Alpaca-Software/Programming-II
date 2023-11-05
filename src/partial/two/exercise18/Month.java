@@ -1,4 +1,4 @@
-package coco77.exercise18;
+package partial.two.exercise18;
 
 public class Month {
 

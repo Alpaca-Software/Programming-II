@@ -1,5 +1,5 @@
 
-package coco77.exercise12;
+package partial.two.exercise12;
 
 import java.util.ArrayList;
 

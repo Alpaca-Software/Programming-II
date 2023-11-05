@@ -1,6 +1,6 @@
 
 
-package coco77.exercise15;
+package partial.two.exercise15;
 
 // pinto77
 /*"15. From the previous exercise, you must create 
