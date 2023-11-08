@@ -1,5 +1,5 @@
 
-package coco77.exercise21;
+package partial.two.exercise21;
 
 import java.util.ArrayList;
 public class Vowel {

@@ -1,5 +1,5 @@
 
-package coco77.exercise21;
+package partial.two.exercise21;
 
 /*
 "21. Enseñe las vocales al sistema, guárdelas en un arreglo de la siguiente manera,

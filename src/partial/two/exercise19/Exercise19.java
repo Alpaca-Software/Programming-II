@@ -1,6 +1,6 @@
 
 
-package coco77.exercise19;
+package partial.two.exercise19;
 
 /*"19. Solicita la estación del año mediante teclado, la consola muestra los meses que la representan.
       Los meses de primavera son: marzo, abril, mayo y junio.

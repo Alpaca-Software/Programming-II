@@ -1,4 +1,4 @@
-package coco77.exercise20;
+package partial.two.exercise20;
 
 /*77*/
 public class Word {

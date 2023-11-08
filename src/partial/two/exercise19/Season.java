@@ -1,4 +1,4 @@
-package coco77.exercise19;
+package partial.two.exercise19;
 
 /*77*/
 public class Season {
