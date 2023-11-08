@@ -21,15 +21,12 @@ public class Donation {
     
     public static void calculateDonations(ArrayList<Donation> donations){
         int c = 0;
+ 	double f =0;
         for (Donation d : donations) {
             c++;
+ 	f +=  d.donation;
         }
         System.out.println("La cantida de donaciones que se realizaron fueron "+c);
-        
-       double f =0;
-        for (Donation d : donations) {
-            f +=  d.donation;
-        }
         
         System.out.println("La cantidad de dolares recogidos es de: "+f);
     }
