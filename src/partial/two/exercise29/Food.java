@@ -1,20 +1,17 @@
-
 package coco77.exercise29;
 
 public class Food {
-    private String name;
+  private String name;
 
-    public Food(String name) {
-        this.name = name;
-    }
+  public Food(String name) {
+    this.name = name;
+  }
 
-    public String getName() {
-        return name;
-    }
+  public String getName() {
+    return name;
+  }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-   
+  public void setName(String name) {
+    this.name = name;
+  }
 }

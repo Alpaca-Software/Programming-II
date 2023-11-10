@@ -10,13 +10,13 @@ import java.util.Scanner;
  */
 public class Exercise20 {
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        
-        String word = sc.next();
-        
-        Word word1 = new Word(word);
-        
-        word1.showWordUpperCase();
-    }
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+
+    String word = sc.next();
+
+    Word word1 = new Word(word);
+
+    word1.showWordUpperCase();
+  }
 }

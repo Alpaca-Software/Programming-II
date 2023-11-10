@@ -4,28 +4,24 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class House {
-    String partyHouse;
+  String partyHouse;
 
-    public House(String partyHouse) {
-        this.partyHouse = partyHouse;
-    }
- 
+  public House(String partyHouse) {
+    this.partyHouse = partyHouse;
+  }
 
-    public String getPartyHouse() {
-        return partyHouse;
-    }
+  public String getPartyHouse() {
+    return partyHouse;
+  }
 
-    public void setPartyHouse(String partyHouse) {
-        this.partyHouse = partyHouse;
-    }
-    
-       
-    
-    
-    public static List concatPartysHouse(ArrayList<House> house){
-        
-        List<House> house1 = new ArrayList<>(house);
-    
-        return house1;
-    }
+  public void setPartyHouse(String partyHouse) {
+    this.partyHouse = partyHouse;
+  }
+
+  public static List concatPartysHouse(ArrayList<House> house) {
+
+    List<House> house1 = new ArrayList<>(house);
+
+    return house1;
+  }
 }

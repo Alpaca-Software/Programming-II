@@ -1,4 +1,3 @@
-
 /*
  * You must store the following data:
       A. The name, document number and code of a teacher.
@@ -11,19 +10,21 @@
 package partial.two.exercise34;
 
 public class Main {
-	public static void main(String[] args) {
-		Person[] persons = new Person[] {
-				new Teacher("Victor", "135798642", 35, "12345"),
-				new Teacher("Hugo", "563573457", 28, "54627"),
-				new Student("Priscila", "372582538", 19, "192155"),
-				new Student("Anastasia", "345363538", 21, "192155"),
-		};
+  public static void main(String[] args) {
+    Person[] persons =
+        new Person[] {
+          new Teacher("Victor", "135798642", 35, "12345"),
+          new Teacher("Hugo", "563573457", 28, "54627"),
+          new Student("Priscila", "372582538", 19, "192155"),
+          new Student("Anastasia", "345363538", 21, "192155"),
+        };
 
-		for (Person person : persons) {
-			System.out.println(person);
-		}
+    for (Person person : persons) {
+      System.out.println(person);
+    }
 
-		int overAge = 20;
-		System.out.printf("\nThere are %d persons olden than %d.\n", Person.countAgeOver(persons, overAge), overAge);
-	}
+    int overAge = 20;
+    System.out.printf(
+        "\nThere are %d persons olden than %d.\n", Person.countAgeOver(persons, overAge), overAge);
+  }
 }

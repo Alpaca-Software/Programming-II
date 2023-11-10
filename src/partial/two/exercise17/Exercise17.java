@@ -1,5 +1,3 @@
-
-
 package partial.two.exercise17;
 
 import java.util.ArrayList;
@@ -10,22 +8,21 @@ import java.util.ArrayList;
  */
 public class Exercise17 {
 
-    public static void main(String[] args) {
-        ArrayList<Digit> digits= new ArrayList<>();
-        
-        digits.add(new Digit(9,"Spanish"));
-        digits.add(new Digit(10,"Spanish"));
-        digits.add(new Digit(7,"Spanish"));
-        digits.add(new Digit(3,"Spanish"));
-        digits.add(new Digit(4,"Spanish"));
-        digits.add(new Digit(9,"English"));
-        digits.add(new Digit(10,"English"));
-        digits.add(new Digit(7,"English"));
-        digits.add(new Digit(3,"English"));
-        digits.add(new Digit(4,"English"));
-        
-        Digit.translateLenguageSpanisEnglish(digits);
-        Digit.translateLenguageSpanish(digits);
-        
-    }
+  public static void main(String[] args) {
+    ArrayList<Digit> digits = new ArrayList<>();
+
+    digits.add(new Digit(9, "Spanish"));
+    digits.add(new Digit(10, "Spanish"));
+    digits.add(new Digit(7, "Spanish"));
+    digits.add(new Digit(3, "Spanish"));
+    digits.add(new Digit(4, "Spanish"));
+    digits.add(new Digit(9, "English"));
+    digits.add(new Digit(10, "English"));
+    digits.add(new Digit(7, "English"));
+    digits.add(new Digit(3, "English"));
+    digits.add(new Digit(4, "English"));
+
+    Digit.translateLenguageSpanisEnglish(digits);
+    Digit.translateLenguageSpanish(digits);
+  }
 }

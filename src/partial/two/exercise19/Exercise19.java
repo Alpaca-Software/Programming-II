@@ -1,5 +1,3 @@
-
-
 package partial.two.exercise19;
 
 /*"19. Solicita la estación del año mediante teclado, la consola muestra los meses que la representan.
@@ -19,15 +17,13 @@ import java.util.*;
 
 public class Exercise19 {
 
-    public static void main(String[] args) {
-     Scanner sc = new Scanner(System.in);
-     
-     String seasonOfYear = sc.nextLine();
-     
-     
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
 
-     Season season = new Season(seasonOfYear);
-     
-     season.showSeasonOfYears();
-    }
+    String seasonOfYear = sc.nextLine();
+
+    Season season = new Season(seasonOfYear);
+
+    season.showSeasonOfYears();
+  }
 }
