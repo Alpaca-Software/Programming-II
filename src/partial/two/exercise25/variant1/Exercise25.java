@@ -1,4 +1,4 @@
-package coco77.exercise25;
+package partial.two.exercise25.variant1;
 
 /*
 "25. Create a translator for three languages:

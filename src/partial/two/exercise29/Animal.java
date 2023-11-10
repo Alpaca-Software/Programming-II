@@ -1,4 +1,4 @@
-package coco77.exercise29;
+package partial.two.exercise29;
 
 public class Animal {
 

@@ -1,4 +1,4 @@
-package language.trycatchtry;
+package language.trycatch;
 
 import java.util.Scanner;
 

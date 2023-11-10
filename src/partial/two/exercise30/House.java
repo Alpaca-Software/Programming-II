@@ -1,4 +1,4 @@
-package coco77.exercise30;
+package partial.two.exercise30;
 
 import java.util.ArrayList;
 import java.util.List;
