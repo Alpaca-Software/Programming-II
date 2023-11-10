@@ -1,6 +1,5 @@
 package coco77.exercise25;
 
-
 public class Translator {
   public static final String LANGUAGES[] = {"French", "Spanish", "English"};
   public static final String LANGUAGE_FRENCH[] = {"Femme", "Chat", "file"};

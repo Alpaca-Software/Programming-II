@@ -1,6 +1,5 @@
 package partial.two.exercise21;
 
-
 public class Vowel {
 
   public static final String VOWELS_LOWERCASE[] = {"a", "e", "i", "o", "u"};

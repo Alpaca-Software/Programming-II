@@ -1,6 +1,5 @@
 package coco77.exercise29;
 
-
 public class Animal {
 
   private String name;
