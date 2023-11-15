@@ -1,6 +1,5 @@
 package coco77.exercise33;
 
-
 /*
 "33. You have a list of t-shirt sizes,
 now you must request the numerical size
